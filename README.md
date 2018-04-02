@@ -1,4 +1,4 @@
-# Simple API Workbench
+# Simple API Benchmark
 
 I've used `wrk` to make some comparative performance tests between:
 
@@ -10,4 +10,4 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 
 `wrk -t12 -c400 -d30s http://localhost:3000`
 
-![alt text](https://raw.githubusercontent.com/robertohuertasm/simple-api-workbench/master/net-vs-rust-vs-js.png "Logo Title Text 1")
+![results](https://raw.githubusercontent.com/robertohuertasm/simple-api-benchmark/master/net-vs-rust-vs-js.png "Results")
