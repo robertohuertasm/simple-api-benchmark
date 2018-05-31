@@ -1,0 +1,8 @@
+[package]
+name = "thruster"
+version = "0.1.0"
+authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+
+[dependencies]
+thruster = "0.4.0"
+futures = "0.1"

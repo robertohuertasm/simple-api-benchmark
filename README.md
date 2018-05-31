@@ -5,6 +5,7 @@ I've used `wrk` to make some comparative performance tests between:
 - .NET Core 2.1.101 (C#)
 - Actix-web (Rust)
 - Express (JS)
+- Thruster
 
 The test is done with `Hello World` examples and the following `wrk` settings:
 
