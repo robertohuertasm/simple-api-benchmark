@@ -1,0 +1,9 @@
+[package]
+name = "gotham"
+version = "0.1.0"
+authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+
+[dependencies]
+gotham = "0.2.1"
+hyper = "0.11.27"
+mime = "0.3.7"
