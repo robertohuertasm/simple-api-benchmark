@@ -5,4 +5,4 @@ authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
 
 [dependencies]
 actix = "0.5"
-actix-web = "0.4"
+actix-web = "0.6.10"
