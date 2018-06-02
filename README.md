@@ -2,10 +2,10 @@
 
 I've used `wrk` in my MacBook Pro to make some comparative performance tests between:
 
-* .NET Core 2.1.101 (C#)
+* Thruster (Rust)
 * Actix-web (Rust)
 * Express (JS)
-* Thruster
+* .NET Core 2.1.200 (C#)
 
 The test is done with `Hello World` examples and the following `wrk` settings:
 
