@@ -17,7 +17,7 @@ pub fn say_hello(state: State) -> (State, Response) {
 }
 
 fn main() {
-    let addr = "0.0.0.0:7878";
+    let addr = "0.0.0.0:8100";
     println!("Listening for requests at http://{}", addr);
     gotham::start(addr, || Ok(say_hello))
 }

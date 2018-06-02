@@ -2,7 +2,7 @@ const Hapi = require('hapi');
 
 const server = Hapi.server({
   host: 'localhost',
-  port: 3200,
+  port: 3100,
 });
 
 server.route({

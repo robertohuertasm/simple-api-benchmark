@@ -6,8 +6,9 @@ fn greet(_req: HttpRequest) -> impl Responder {
 }
 
 fn main() {
+    println!("Server running in port 8000");
     server::new(|| App::new().resource("/", |r| r.f(greet)))
-        .bind("0.0.0.0:8888")
-        .expect("Can not bind to port 8888")
+        .bind("0.0.0.0:8000")
+        .expect("Can not bind to port 8000")
         .run();
 }

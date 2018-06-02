@@ -20,5 +20,6 @@ fn hello(mut context: Ctx, _chain: &MiddlewareChain<Ctx>) -> MiddlewareReturnVal
 fn main() {
     let mut app = App::<Ctx>::create(generate_context);
     app.get("/", vec![hello]);
-    App::start(app, "0.0.0.0", 4321);
+    App::start(app, "0.0.0.0", 8200);
+    println!("Server running on port 8200");
 }
