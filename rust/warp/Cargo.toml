@@ -1,0 +1,7 @@
+[package]
+name = "warp"
+version = "0.1.0"
+authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+
+[dependencies]
+warp = "0.1"
