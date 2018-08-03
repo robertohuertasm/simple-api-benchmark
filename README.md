@@ -19,8 +19,8 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 - [Gotham](https://gotham.rs/) [2.650.183]
 - [Thruster](https://github.com/trezm/Thruster) [2.945.193]
 - [Warp](https://github.com/seanmonstar/warp) [3.002.192]
+- [Hyper](https://hyper.rs) [3.003.534]
 - [results](https://raw.githubusercontent.com/robertohuertasm/simple-api-benchmark/master/rust/actix-gotham-thruster.png)
-- [warp results](https://raw.githubusercontent.com/robertohuertasm/simple-api-benchmark/master/rust/warp-results.png)
 
 ## .NET Core
 

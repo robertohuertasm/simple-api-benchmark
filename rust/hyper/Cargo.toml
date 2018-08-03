@@ -1,0 +1,7 @@
+[package]
+name = "hyper"
+version = "0.1.0"
+authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+
+[dependencies]
+hyper = "0.12"
