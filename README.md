@@ -17,7 +17,7 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 - [Hyper](https://hyper.rs) [3.003.534]
 - [Warp](https://github.com/seanmonstar/warp) [3.002.192]
 - [Thruster](https://github.com/trezm/Thruster) [2.945.193]
-- [Tower-web](https://github.com/carllerche/tower-web) [2.903.518]
+- [Tower-web](https://github.com/carllerche/tower-web) [2.938.329]
 - [Actix-web](https://actix.rs/) [2.698.012]
 - [Gotham](https://gotham.rs/) [2.650.183]
 

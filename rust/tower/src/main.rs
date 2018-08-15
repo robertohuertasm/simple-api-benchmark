@@ -8,7 +8,6 @@ struct HelloWorld;
 impl_web! {
     impl HelloWorld {
         #[get("/")]
-        #[content_type("json")]
         fn hello_world(&self) -> Result<String, ()> {
             Ok("Hello World".to_string())
         }
