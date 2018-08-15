@@ -1,7 +1,7 @@
 extern crate actix_web;
 use actix_web::{server, App, HttpRequest, Responder};
 
-fn greet(_req: HttpRequest) -> impl Responder {
+fn greet(_req: &HttpRequest) -> impl Responder {
     "Hello World"
 }
 

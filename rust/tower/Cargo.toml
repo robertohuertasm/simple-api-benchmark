@@ -1,8 +1,7 @@
 [package]
-name = "actix-api"
+name = "tower"
 version = "0.1.0"
 authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
 
 [dependencies]
-actix = "0.7.3"
-actix-web = "0.7.3"
+tower-web = "0.2.0"
