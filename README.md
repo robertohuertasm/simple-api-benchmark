@@ -8,9 +8,9 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 
 ## JS
 
-- [Koa](https://koajs.com/) [562.182]
-- [Hapi](https://hapijs.com/) [464.458]
-- [Express](http://expressjs.com/) [440.898]
+- [Koa](https://koajs.com/) [603.862]
+- [Hapi](https://hapijs.com/) [467.902]
+- [Express](http://expressjs.com/) [457.469]
 
 ## Rust
 
