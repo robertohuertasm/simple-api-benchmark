@@ -24,5 +24,4 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 
 ## .NET Core
 
-- [.NET Core 2.1.402](https://dotnet.github.io/) [2.076.040]
-- [.NET Core 2.2.101](https://dotnet.github.io/) [2.076.040]
+- [.NET Core 2.2.101](https://dotnet.github.io/) [1.987.003]

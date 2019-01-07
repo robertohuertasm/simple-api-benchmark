@@ -1,0 +1,14 @@
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/bin/release/netcoreapp2.2/api.deps.json
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/bin/release/netcoreapp2.2/api.runtimeconfig.json
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/bin/release/netcoreapp2.2/api.runtimeconfig.dev.json
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/bin/release/netcoreapp2.2/api.dll
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/bin/release/netcoreapp2.2/api.pdb
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.csprojAssemblyReference.cache
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.csproj.CoreCompileInputs.cache
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.RazorAssemblyInfo.cache
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.RazorAssemblyInfo.cs
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.AssemblyInfoInputs.cache
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.AssemblyInfo.cs
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.RazorTargetAssemblyInfo.cache
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.dll
+/Users/yc00057/git/github/robertohuertasm/simple-api-benchmark/net/api/obj/release/netcoreapp2.2/api.pdb
