@@ -1,11 +1,9 @@
-extern crate hyper;
-
 use hyper::rt::Future;
 use hyper::service::service_fn_ok;
 use hyper::{Body, Response, Server};
 
 fn main() {
-    let addr = ([127, 0, 0, 1], 3000).into();
+    let addr = ([127, 0, 0, 1], 8000).into();
 
     let new_svc = || service_fn_ok(|_req| Response::new(Body::from("Hello World")));
 

@@ -2,6 +2,7 @@
 name = "hyper"
 version = "0.1.0"
 authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+edition = "2018"
 
 [dependencies]
-hyper = "0.12"
+hyper = "0.12.19"

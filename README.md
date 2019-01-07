@@ -14,13 +14,15 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 
 ## Rust
 
-- [Warp](https://github.com/seanmonstar/warp) [3.037.291]
-- [Thruster](https://github.com/trezm/Thruster) [3.028.502]
-- [Tower-web](https://github.com/carllerche/tower-web) [3.013.232]
-- [Hyper](https://hyper.rs) [3.003.534]
-- [Actix-web](https://actix.rs/) [2.698.012]
-- [Gotham](https://gotham.rs/) [2.650.183]
+- [Thruster](https://github.com/trezm/Thruster) [2.927.239]
+- [Hyper](https://hyper.rs) [2.875.151]
+- [Tower-web](https://github.com/carllerche/tower-web) [2.858.096]
+- [Warp](https://github.com/seanmonstar/warp) [2.866.438]
+- [Gotham](https://gotham.rs/) [2.840.204]
+- [Actix-web](https://actix.rs/) [2.816.621]
+- [Rocket](https://rocket.rs/) [16.891]
 
 ## .NET Core
 
 - [.NET Core 2.1.402](https://dotnet.github.io/) [2.076.040]
+- [.NET Core 2.2.101](https://dotnet.github.io/) [2.076.040]

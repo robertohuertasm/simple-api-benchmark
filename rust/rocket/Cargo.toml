@@ -1,8 +1,8 @@
 [package]
-name = "warp"
+name = "rocket"
 version = "0.1.0"
 authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
 edition = "2018"
 
 [dependencies]
-warp = "0.1.10"
+rocket = "0.4.0"

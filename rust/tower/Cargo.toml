@@ -2,6 +2,7 @@
 name = "tower"
 version = "0.1.0"
 authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+edition = "2018"
 
 [dependencies]
-tower-web = "0.3.0"
+tower-web = "0.3.3"
