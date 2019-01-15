@@ -22,6 +22,10 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 - [Actix-web](https://actix.rs/) [2.816.621]
 - [Rocket](https://rocket.rs/) [16.891]
 
+## Go
+
+- [Echo](https://github.com/labstack/echo) [2.254.835]
+
 ## .NET Core
 
 - [.NET Core 2.2.101](https://dotnet.github.io/) [1.987.003]
