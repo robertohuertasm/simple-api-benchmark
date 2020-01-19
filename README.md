@@ -30,4 +30,4 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 
 ## .NET Core
 
-- [.NET Core 2.2.101](https://dotnet.github.io/) [1.987.003]
+- [.NET Core 3.1.101](https://dotnet.github.io/) [1.989.339] - 66.252 req/sec
