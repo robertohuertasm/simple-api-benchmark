@@ -1,14 +1,10 @@
-extern crate actix_web;
-use actix_web::{server, App, HttpRequest, Responder};
+use actix_web::{web, App, HttpServer};
 
-fn greet(_req: &HttpRequest) -> impl Responder {
-    "Hello World"
-}
-
-fn main() {
-    println!("Server running in port 8000");
-    server::new(|| App::new().resource("/", |r| r.f(greet)))
-        .bind("0.0.0.0:8000")
-        .expect("Can not bind to port 8000")
-        .run();
+#[actix_rt::main]
+async fn main() -> std::io::Result<()> {
+    println!("Server running in port 8080");
+    HttpServer::new(|| App::new().service(web::resource("/").to(|| async { "Hello World" })))
+        .bind("0.0.0.0:8080")?
+        .run()
+        .await
 }

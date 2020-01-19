@@ -2,7 +2,9 @@
 name = "actix-api"
 version = "0.1.0"
 authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+edition = "2018"
 
 [dependencies]
-actix = "0.7.9"
-actix-web = "0.7.17"
+actix = "0.9.0"
+actix-web = "2.0.0"
+actix-rt = "1.0.0"
