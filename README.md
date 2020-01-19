@@ -14,14 +14,14 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 
 ## Rust
 
-- [Thruster](https://github.com/trezm/Thruster) [2.927.239]
-- [Hyper](https://hyper.rs) [2.875.151]
-- [Tower-web](https://github.com/carllerche/tower-web) [2.858.096]
-- [Warp](https://github.com/seanmonstar/warp) [2.866.438]
-- [Gotham](https://gotham.rs/) [2.840.204]
-- [Actix-web](https://actix.rs/) [2.816.621]
-- [Rocket](https://rocket.rs/) [16.891]
-- [Tide](https://github.com/http-rs/tide) [x]
+- [Hyper](https://hyper.rs) [3.751.419] - 124.974 req/sec
+- [Warp](https://github.com/seanmonstar/warp) [3.609.731] - 120.261 req/sec
+- [Thruster](https://github.com/trezm/Thruster) [3.125.449] - 103.829 req/sec
+- [Tower-web](https://github.com/carllerche/tower-web) [3.112.701] - 103.748 req/sec
+- [Gotham](https://gotham.rs/) [3.211.659] - 106.687 req/sec
+- [Actix-web](https://actix.rs/) [3.027.716] - 100.577 req/sec
+- [Tide](https://github.com/http-rs/tide) [2.963.410] - 98.759 req/sec
+- [Rocket](https://rocket.rs/) [16.721] - 555.86 req/sec
 
 ## Go
 
