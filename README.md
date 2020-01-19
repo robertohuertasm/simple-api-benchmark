@@ -25,8 +25,8 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 
 ## Go
 
-- [No Framework](https://golang.org/) [2.501.755] - 83.351 req/sec
-- [Echo](https://github.com/labstack/echo) [2.254.835]
+- [Echo](https://github.com/labstack/echo) [2.526.339] - 84.166 req/sec
+- [No Framework](https://golang.org/) [2.521.932] - 84.026 req/sec
 
 ## .NET Core
 
