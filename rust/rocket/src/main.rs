@@ -1,6 +1,6 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 
-use rocket::{get, routes};
+use rocket::{config::Environment, get, routes, Config};
 
 #[get("/")]
 fn index() -> &'static str {
@@ -8,5 +8,11 @@ fn index() -> &'static str {
 }
 
 fn main() {
-    rocket::ignite().mount("/", routes![index]).launch();
+    let config = Config::build(Environment::Production)
+        .address("0.0.0.0")
+        .port(8000)
+        .finalize()
+        .unwrap();
+
+    rocket::custom(config).mount("/", routes![index]).launch();
 }

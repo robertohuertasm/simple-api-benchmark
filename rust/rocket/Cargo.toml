@@ -5,4 +5,4 @@ authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
 edition = "2018"
 
 [dependencies]
-rocket = "0.4.0"
+rocket = "0.4.2"
