@@ -1,15 +1,20 @@
-use hyper::rt::Future;
-use hyper::service::service_fn_ok;
-use hyper::{Body, Response, Server};
+use hyper::service::{make_service_fn, service_fn};
+use hyper::{Body, Request, Response, Server};
+use std::{convert::Infallible, net::SocketAddr};
 
-fn main() {
-    let addr = ([127, 0, 0, 1], 8000).into();
+async fn handle(_: Request<Body>) -> Result<Response<Body>, Infallible> {
+    Ok(Response::new("Hello World".into()))
+}
 
-    let new_svc = || service_fn_ok(|_req| Response::new(Body::from("Hello World")));
+#[tokio::main]
+async fn main() {
+    let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
 
-    let server = Server::bind(&addr)
-        .serve(new_svc)
-        .map_err(|e| eprintln!("server error: {}", e));
+    let make_svc = make_service_fn(|_conn| async { Ok::<_, Infallible>(service_fn(handle)) });
 
-    hyper::rt::run(server);
+    let server = Server::bind(&addr).serve(make_svc);
+    println!("Server running on port 3000");
+    if let Err(e) = server.await {
+        eprintln!("server error: {}", e);
+    }
 }
