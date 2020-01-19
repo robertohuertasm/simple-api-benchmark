@@ -21,6 +21,7 @@ The test is done with `Hello World` examples and the following `wrk` settings:
 - [Gotham](https://gotham.rs/) [2.840.204]
 - [Actix-web](https://actix.rs/) [2.816.621]
 - [Rocket](https://rocket.rs/) [16.891]
+- [Tide](https://github.com/http-rs/tide) [x]
 
 ## Go
 
